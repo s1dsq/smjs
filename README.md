@@ -55,11 +55,12 @@ export type Transition = {
 Check the typescript declaration file for more details. Example programs can be
 found in the `examples` directory
 
-For every state `someState` methods such as `isSomeState` (is the current state
-someState), `onEnterSomeState` (fired every time we enter someState, except at
-the very beginning), `onExitSomeState` (fired every time we leave someState) are
-added on initialization. It is recommended to not use spaces between state names
-to avoid awkward method calls at runtime (`this.isSomeState()` instead of
+For every state `someState` methods such as:
+    - `isSomeState` (is the current state someState)
+    - `onEnterSomeState` (fired every time we enter someState, except at the very beginning)
+    - `onExitSomeState` (fired every time we leave someState)
+are added on initialization. It is recommended to not use spaces between state
+names to avoid awkward method calls at runtime (`this.isSomeState()` instead of
 `this['isSome State']`)
 
 ## LICENSE
