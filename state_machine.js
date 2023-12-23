@@ -4,9 +4,6 @@ export class State {
   }
 }
 
-// add recommendation to not add spaces in state name for ease of
-// calling methods like "onStateEnter"
-
 export class StateMachine {
   constructor(model, states, initial, transitions) {
     this.model = model;
