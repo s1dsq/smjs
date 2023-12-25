@@ -63,6 +63,10 @@ are added on initialization. It is recommended to not use spaces between state
 names to avoid awkward method calls at runtime (`this.isSomeState()` instead of
 `this['isSome State']`)
 
+## Credits
+[pytransitions/transitions](https://github.com/pytransitions/transitions) for
+the state machine core and also some examples
+
 ## LICENSE
 
 MIT
