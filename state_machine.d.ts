@@ -16,10 +16,10 @@ export type Transition = {
   trigger: string;
   source: string;
   dest: string;
-  before: string;
-  after: string;
-  conditions: string[];
-  unless: string[];
+  before?: string;
+  after?: string;
+  conditions?: string[];
+  unless?: string[];
 };
 
 export declare class StateMachine {
